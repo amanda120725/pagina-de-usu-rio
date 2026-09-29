@@ -4,16 +4,16 @@ body{
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background: linear-gradient( #191970, #4169E1,#00FFEF);
+    background: linear-gradient(#000000, #2e0e78, #3823d8,#93effff6);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .perfil{
     width: 400px;
     background-color: rgb(166, 254, 254);
-    padding: 30px;
+    padding: 50px;
     text-align: center;
-    border-radius: 25px;
-    box-shadow: 0 0 20px rgb(1, 54, 92);
+    border-radius: 35px;
+    box-shadow: 0 0 40px rgb(17, 2, 104);
 }
 img{
     width: 150px;
@@ -34,14 +34,14 @@ button{
     height: 40px;
     margin-top: 10px;
     border: 01;
-    border-color: rgba(5, 5, 98, 0.733);
-    color: rgb(2, 30, 129);
+    border-color: rgba(17, 4, 75, 0.733);
+    color: rgb(8, 8, 245);
     font-size: 15px;
     border-radius: 8px;
     cursor: pointer; 
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 button:hover {
-    background-color: rgb(2, 30, 129); 
-    color: white; 
+    background-color: rgb(0, 0, 0); 
+    color: rgb(213, 235, 249); 
 }
